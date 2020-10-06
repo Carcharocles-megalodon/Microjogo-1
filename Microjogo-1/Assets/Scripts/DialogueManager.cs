@@ -16,14 +16,14 @@ public class DialogueManager : MonoBehaviour
         sentences = new Queue<string>();
     }
 
-    public void StartDialogue(Dialogue dialogue)
+    public void StartDialogue(DialogueScriptable dialogue)
     {
         
-        nameText.text = dialogue.name;
+        nameText.text = dialogue.lines[].character.name;
         
         sentences.Clear();
 
-        foreach (string sentence in dialogue.sentences)
+        foreach (string sentence in dialogue.lines[].text)
         {
             sentences.Enqueue(sentence);
         }
