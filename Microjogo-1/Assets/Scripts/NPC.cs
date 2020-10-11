@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class NPC : MonoBehaviour
 {
-    public Dialogue dialogue;
+    
+    public DialogueScriptable dialogue;
 
     public void TriggerDialogue()
     {
-        FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
+       // FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
     }
 }
