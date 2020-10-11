@@ -9,44 +9,34 @@ public class DialogueManager : MonoBehaviour
 {
     public TextMeshProUGUI nameText;
     public TextMeshProUGUI dialogueText;
-    public Queue<string> sentences;
+    public DialogueScriptable dialogue;
+    
     public int index;
    
     void Start()
     {
-        sentences = new Queue<string>();
-        index = 0;
+        index = 1;
     }
 
     public void StartDialogue(DialogueScriptable dialogue)
     {
-        
-        nameText.text = dialogue.lines[index].character.name;
-        
-        sentences.Clear();
-
-        /*foreach (string sentence in dialogue.lines[index].text)
-        {
-            sentences.Enqueue(sentence);
-        }
-
-        DisplayNextSentence();*/
+        this.dialogue = dialogue;
+        nameText.text = this.dialogue.lines[0].character.name;
+        dialogueText.text = dialogue.lines[0].text;
     }
 
     
 
     public void DisplayNextSentence()
     {
-        if (sentences.Count == 0)
+        if (index == dialogue.lines.Length)
         {
             EndDialogue();
             return;
         }
-
-        string sentence = sentences.Dequeue();
+        dialogueText.text = dialogue.lines[index].text;
+        nameText.text = dialogue.lines[index].character.name;
         index++;
-        dialogueText.text = sentence;
-        Debug.Log(sentence);
     }
 
     public void EndDialogue()

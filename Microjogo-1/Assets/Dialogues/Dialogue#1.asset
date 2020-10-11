@@ -12,6 +12,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd907afec35995478d06ae266fda05f, type: 3}
   m_Name: Dialogue#1
   m_EditorClassIdentifier: 
-  speakerLeft: {fileID: 0}
-  speakerRight: {fileID: 0}
-  lines: []
+  speakerLeft: {fileID: 11400000, guid: 09bfa3ec0ae90324793918e59c5f9a68, type: 2}
+  speakerRight: {fileID: 11400000, guid: c5eb3da3f02e1a8479fee154a667fd32, type: 2}
+  lines:
+  - character: {fileID: 11400000, guid: c5eb3da3f02e1a8479fee154a667fd32, type: 2}
+    text: She wanders around, looking for... somewhere to pose for her selfies when
+      suddenly...
+  - character: {fileID: 11400000, guid: c5eb3da3f02e1a8479fee154a667fd32, type: 2}
+    text: she spots a little dog.
+  - character: {fileID: 11400000, guid: 09bfa3ec0ae90324793918e59c5f9a68, type: 2}
+    text: 'Hey there, doggo. Who''s the cutest little dog? '
+  - character: {fileID: 11400000, guid: c5eb3da3f02e1a8479fee154a667fd32, type: 2}
+    text: 'She keeps trying to bond with the dog but the dog is unamused and quickly
+      scurries off. '
+  - character: {fileID: 11400000, guid: 09bfa3ec0ae90324793918e59c5f9a68, type: 2}
+    text: 'Hey! Where are you going? Come back! '
+  - character: {fileID: 11400000, guid: c5eb3da3f02e1a8479fee154a667fd32, type: 2}
+    text: She should've known not to wander into forests, and yet...
+  - character: {fileID: 11400000, guid: 09bfa3ec0ae90324793918e59c5f9a68, type: 2}
+    text: 'Oh shit, where am I?
+
+'
+  - character: {fileID: 11400000, guid: c5eb3da3f02e1a8479fee154a667fd32, type: 2}
+    text: She got lost. What'll happen now...
+  - character: {fileID: 11400000, guid: 09bfa3ec0ae90324793918e59c5f9a68, type: 2}
+    text: Is that a cave? I've always heard that it's a good idea to go into caves
+      if you're lost in the woods. Let's see what's in here...
+  - character: {fileID: 11400000, guid: c5eb3da3f02e1a8479fee154a667fd32, type: 2}
+    text: Every good adventure starts off with a couple of dumb decisions, isn't
+      that right?
