@@ -19,25 +19,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8cdaf1c6-7be9-428d-b529-b4d800da5796" name="Default Changelist" comment="Still having troubles with the dialogue system using Scriptable Objects.">
-      <change afterPath="$PROJECT_DIR$/Assets/Dialogues/New Dialogue.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Dialogues/New Dialogue.asset.meta" afterDir="false" />
+    <list default="true" id="8cdaf1c6-7be9-428d-b529-b4d800da5796" name="Default Changelist" comment="Looking a bit better. Primitive Dialogue System Working">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Microjogo-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Microjogo-1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Protagonist.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Protagonist.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/World.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/World.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dialogues/Dialogue#1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dialogues/Dialogue#1.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SamplerScener.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SamplerScener.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogues/New Dialogue.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogues/New Dialogue.asset.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DialogueManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueScriptable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DialogueScriptable.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/NPC.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NPC.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/06/06ddd20be9a104ac36d6acb9e83f18f5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/c1b2ba-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/c1b2ba-mainStage.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/ee355c-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/ee355c-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/expandedItems" beforeDir="false" afterPath="$PROJECT_DIR$/Library/expandedItems" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,8 +53,8 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Choices.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Character.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/DialogueScriptable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Dialogue.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DialogueScriptable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NPC.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DialogueManager.cs" />
       </list>
@@ -119,7 +115,8 @@
       <workItem from="1601545881725" duration="4447000" />
       <workItem from="1601810788338" duration="1699000" />
       <workItem from="1601965209266" duration="4517000" />
-      <workItem from="1602408042114" duration="8971000" />
+      <workItem from="1602408042114" duration="9022000" />
+      <workItem from="1602565172686" duration="2327000" />
     </task>
     <task id="LOCAL-00001" summary="Trying dialogue through Scriptable Objects.">
       <created>1602001191929</created>
@@ -135,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602413861856</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Looking a bit better. Primitive Dialogue System Working">
+      <created>1602430231843</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602430231843</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,17 +164,18 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Trying dialogue through Scriptable Objects." />
     <MESSAGE value="Still having troubles with the dialogue system using Scriptable Objects." />
-    <option name="LAST_COMMIT_MESSAGE" value="Still having troubles with the dialogue system using Scriptable Objects." />
+    <MESSAGE value="Looking a bit better. Primitive Dialogue System Working" />
+    <option name="LAST_COMMIT_MESSAGE" value="Looking a bit better. Primitive Dialogue System Working" />
   </component>
   <component name="WindowStateProjectService">
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1602001103749">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602001103749" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1602001204710">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1602430237368">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602001204710" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602430237368" />
     <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601965271695">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

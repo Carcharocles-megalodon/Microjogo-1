@@ -18,4 +18,5 @@ public class DialogueScriptable : ScriptableObject
     public Character speakerLeft;
     public Character speakerRight;
     public Line[] lines;
+    public Choices choice;
 }

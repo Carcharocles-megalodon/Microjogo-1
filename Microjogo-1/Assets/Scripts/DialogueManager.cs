@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-
+using UnityEngine.UI;
 
 
 public class DialogueManager : MonoBehaviour
@@ -10,6 +10,7 @@ public class DialogueManager : MonoBehaviour
     public TextMeshProUGUI nameText;
     public TextMeshProUGUI dialogueText;
     public DialogueScriptable dialogue;
+    public Choices choice;
     
     public int index;
    
@@ -23,6 +24,7 @@ public class DialogueManager : MonoBehaviour
         this.dialogue = dialogue;
         nameText.text = this.dialogue.lines[0].character.name;
         dialogueText.text = dialogue.lines[0].text;
+        this.choice = dialogue.choice;
     }
 
     
@@ -41,6 +43,17 @@ public class DialogueManager : MonoBehaviour
 
     public void EndDialogue()
     {
-        Debug.Log("End of conversation");
+        PresentChoices();
+        Debug.Log("Presenting choices now.");
+    }
+
+    public void PresentChoices()
+    {
+        dialogueText.text = choice.question;
+    }
+
+    public void EndConversation()
+    {
+        //FindObjectOfType(TextMeshPro);
     }
 }
