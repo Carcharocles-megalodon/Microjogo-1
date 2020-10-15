@@ -14,6 +14,7 @@ public class DialogueManager : MonoBehaviour
     private DialogueScriptable dialogue;
     private Choices choice;
     private Button[] choiceButtons;
+    [SerializeField] private GameObject panel;
     
     
     private int index;
@@ -44,6 +45,7 @@ public class DialogueManager : MonoBehaviour
             {
                 FindObjectOfType<SwitchOnOff>().TurnOff();
                 SpawnButtons();
+                Debug.Log("Presenting choices now.");
                 return;
             }
         }
@@ -55,8 +57,6 @@ public class DialogueManager : MonoBehaviour
     public void EndDialogue()
     {
         PresentChoices();
-        Debug.Log("Presenting choices now.");
-        
     }
 
     public void PresentChoices()
@@ -69,7 +69,7 @@ public class DialogueManager : MonoBehaviour
     {
         for (int i = 0; i < choice.choices.Length; i++)
         {
-            choiceButtons[i] = Instantiate(prefab, new Vector2(0 + 800 * i, 0), Quaternion.identity);
+            choiceButtons[i] = Instantiate(prefab, panel.gameObject.transform);
             choiceButtons[i].GetComponentInChildren<TextMeshProUGUI>().text = choice.choices[i];
         }
     }
