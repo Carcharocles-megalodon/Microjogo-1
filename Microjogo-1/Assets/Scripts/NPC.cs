@@ -10,6 +10,6 @@ public class NPC : MonoBehaviour
     public void TriggerDialogue()
     {
        FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
-       this.gameObject.SetActive(false);
+       gameObject.SetActive(false);
     }
 }

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94cbba8ad272442408cafcd2d1da5927, type: 3}
   m_Name: Generic Choice
   m_EditorClassIdentifier: 
-  question: Which will you take?
+  question: What'll she do?
   choices:
-  - Red pill
-  - Blue pill
+  - Enter the cave...
+  - NIGERUNDAYO!!!
