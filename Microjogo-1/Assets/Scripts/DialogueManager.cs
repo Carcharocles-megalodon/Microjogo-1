@@ -1,8 +1,10 @@
 ﻿
+using System;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using System.Collections;
+using System.ComponentModel;
 using UnityEngine.UI;
 
 
@@ -69,13 +71,14 @@ public class DialogueManager : MonoBehaviour
     {
         for (int i = 0; i < choice.choices.Length; i++)
         {
-            choiceButtons[i] = Instantiate(prefab, panel.gameObject.transform);
-            choiceButtons[i].GetComponentInChildren<TextMeshProUGUI>().text = choice.choices[i];
+            
+            
+            choiceButtons[i] = Instantiate(prefab, panel.gameObject.transform); // cria o botão
+            choiceButtons[i].gameObject.AddComponent<ButtonScript>(); //atribui o script que atribui a função
+            choiceButtons[i].GetComponent<ButtonScript>().InformationPassing(choice,i);// passa a informaçao para a funçao poder ser atuada
+            choiceButtons[i].GetComponentInChildren<TextMeshProUGUI>().text = choice.choices[i].choice; // muda o texto do botão
         }
     }
-
-    public void EndConversation()
-    {
-        
-    }
+    
+    
 }

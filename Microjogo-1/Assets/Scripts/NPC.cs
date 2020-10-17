@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class NPC : MonoBehaviour
 {
-    
-    public DialogueScriptable dialogue;
+    [SerializeField]
+    private DialogueScriptable dialogue;
 
     public void TriggerDialogue()
     {
