@@ -64,7 +64,9 @@
      <Compile Include="Assets\Scripts\Dialogue.cs" />
      <Compile Include="Assets\Scripts\DialogueManager.cs" />
      <Compile Include="Assets\Scripts\DialogueScriptable.cs" />
+     <Compile Include="Assets\Scripts\FinalBtn.cs" />
      <Compile Include="Assets\Scripts\NPC.cs" />
+     <Compile Include="Assets\Scripts\NPCScriptable.cs" />
      <Compile Include="Assets\Scripts\SceneManager.cs" />
      <Compile Include="Assets\Scripts\SwitchOnOff.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />

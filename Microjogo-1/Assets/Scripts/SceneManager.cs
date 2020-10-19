@@ -2,15 +2,31 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class SceneManager : MonoBehaviour
 {
-   [SerializeField] private Sprite backgroundImage;
+   [SerializeField] private Image backgroundImage;
+   
 
-   public void SceneChange(Sprite backgroundImage, GameObject newEvent)
+   public void SceneChange(Sprite backgroundImage)
    {
-      this.backgroundImage = backgroundImage;
-      newEvent.SetActive(true);
+      this.backgroundImage.sprite = backgroundImage;
+   }
+
+   public void PlayGame()
+   {
+      UnityEngine.SceneManagement.SceneManager.LoadScene("Game");
+   }
+
+   public void Restart()
+   {
+      UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex);
+   }
+
+   public void QuitGame()
+   {
+      Application.Quit();
    }
    
 }

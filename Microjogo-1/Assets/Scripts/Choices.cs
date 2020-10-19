@@ -7,7 +7,9 @@ public struct Choice
 {
     [TextArea(3,10)] public string choice;
     public Sprite backgroundImage;
-    public GameObject nextNPC;
+    public NPCScriptable npc;
+    public bool final;
+    [TextArea(3,10)] public string epilogue;
 }
 
 

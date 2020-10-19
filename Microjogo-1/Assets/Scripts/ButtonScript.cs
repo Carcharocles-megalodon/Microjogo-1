@@ -8,13 +8,15 @@ public class ButtonScript : MonoBehaviour
    public int index;
    private Button button;
    private Choices choice;
+   
 
 
    
    void Start()
    {
-      button = button.GetComponent<Button>();
+      button = GetComponent<Button>();
       button.onClick.AddListener(ChangeScene);
+      button.onClick.AddListener(ChangeNPC);
    }
 
    public void InformationPassing(Choices choice, int index)
@@ -25,6 +27,12 @@ public class ButtonScript : MonoBehaviour
 
    private void ChangeScene()
    {
-      //FindObjectOfType<SceneManager>().SceneChange(choice.choices[index].backgroundImage,choice.choices[index].nextNPC);
+      FindObjectOfType<SceneManager>().SceneChange(choice.choices[index].backgroundImage);
+   }
+
+   private void ChangeNPC()
+   {
+      FindObjectOfType<NPC>().TurnOn();
+      FindObjectOfType<NPC>().ChangeNPC(choice.choices[index].npc.npcImage, choice.choices[index].npc.dialogue);
    }
 }

@@ -19,32 +19,93 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8cdaf1c6-7be9-428d-b529-b4d800da5796" name="Default Changelist" comment="Choice Buttons WORKING!!!!">
-      <change afterPath="$PROJECT_DIR$/Assets/Choices/Choice#1.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Choices/Choice#1.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Dialogues/Dialogue#2.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Dialogues/Dialogue#2.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/NPC.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/NPC.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ButtonScript.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SceneManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SceneManager.cs.meta" afterDir="false" />
+    <list default="true" id="8cdaf1c6-7be9-428d-b529-b4d800da5796" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/FinalChoice Button.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/FinalChoice Button.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/End Screen.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/End Screen.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Main Menu.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Main Menu.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FinalBtn.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FinalBtn.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/NPCScriptable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Characters.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Characters/Protagonist.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Characters/Protagonist.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Characters/World.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Characters/World.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Choices.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Choices/Choice#1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Choices/Choice#1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Dialogues.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Dialogues/Dialogue#1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Dialogues/Dialogue#1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Dialogues/Dialogue#2.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Dialogues/Dialogue#2.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/NPCs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/NPCs/NPC#1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/NPCs/NPC#1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/NPCs/NPC#2.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/NPCs/NPC#2.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/TMP Gradients.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/TMP Gradients/Green + orange.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/TMP Gradients/Green + orange.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/TMP Gradients/Loss Colors.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/TMP Gradients/Loss Colors.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/TMP Gradients/Title Card.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/TMP Gradients/Title Card.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/TMP Gradients/Win Colors.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/TMP Gradients/Win Colors.asset.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Microjogo-1/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Microjogo-1/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Microjogo-1/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Microjogo-1/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Microjogo-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Microjogo-1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Choices/Generic Choice.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Choices/Generic Choice.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Protagonist.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Protagonist.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/World.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/World.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Choices.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Choices/Choice#1.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Choices/Choice#1.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogues.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogues/Dialogue#1.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogues/Dialogue#1.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogues/Dialogue#2.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogues/Dialogue#2.asset.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Choice Button.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Choice Button.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/NPC.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/NPC.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SamplerScener.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SamplerScener.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ButtonScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ButtonScript.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Choices.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Choices.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DialogueManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/NPC.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NPC.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SceneManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SwitchOnOff.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SwitchOnOff.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/c1b2ba-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/c1b2ba-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/ee355c-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/ee355c-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/expandedItems" beforeDir="false" afterPath="$PROJECT_DIR$/Library/expandedItems" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe3.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe4.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe4.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,10 +117,17 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8691AD70-05ED-4755-A182-8378FF0B52B1/7e/4162d246/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../../Program Files/Unity/Hub/Editor/2019.4.11f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/EventSystem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Choices.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DialogueScriptable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../../Program Files/Unity/Hub/Editor/2019.4.11f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/ExecuteEvents.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ButtonScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../../Program Files/Unity/Hub/Editor/2019.4.11f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Layout/CanvasScaler.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8691AD70-05ED-4755-A182-8378FF0B52B1/e8/f591e522/UnitySynchronizationContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../../Program Files/Unity/Hub/Editor/2019.4.11f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/InputModules/StandaloneInputModule.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NPCScriptable.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -67,12 +135,14 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Character.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Dialogue.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DialogueScriptable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SwitchOnOff.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NPCScriptable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NPC.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SceneManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ButtonScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/DialogueManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Choices.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ButtonScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FinalBtn.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SceneManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SwitchOnOff.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DialogueManager.cs" />
       </list>
     </option>
   </component>
@@ -87,6 +157,8 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30010834" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -99,11 +171,11 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
-    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="18540">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="18540" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -137,6 +209,8 @@
       <workItem from="1602781015119" duration="1551000" />
       <workItem from="1602782589494" duration="1203000" />
       <workItem from="1602925997473" duration="12399000" />
+      <workItem from="1602952585071" duration="744000" />
+      <workItem from="1603024458323" duration="24299000" />
     </task>
     <task id="LOCAL-00001" summary="Trying dialogue through Scriptable Objects.">
       <created>1602001191929</created>
@@ -216,6 +290,70 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602001103749" />
+    <state width="1877" height="234" key="GridCell.Tab.0.bottom" timestamp="1603138397984">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="234" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603138397984" />
+    <state width="1877" height="234" key="GridCell.Tab.0.center" timestamp="1603138397984">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="234" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603138397984" />
+    <state width="1877" height="234" key="GridCell.Tab.0.left" timestamp="1603138397984">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="234" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603138397984" />
+    <state width="1877" height="234" key="GridCell.Tab.0.right" timestamp="1603138397984">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="234" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603138397984" />
+    <state width="1877" height="234" key="GridCell.Tab.1.bottom" timestamp="1603138397985">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="234" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603138397985" />
+    <state width="1877" height="234" key="GridCell.Tab.1.center" timestamp="1603138397985">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="234" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603138397985" />
+    <state width="1877" height="234" key="GridCell.Tab.1.left" timestamp="1603138397984">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="234" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603138397984" />
+    <state width="1877" height="234" key="GridCell.Tab.1.right" timestamp="1603138397985">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="234" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603138397985" />
+    <state width="1877" height="234" key="GridCell.Tab.2.bottom" timestamp="1603138397985">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="234" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603138397985" />
+    <state width="1877" height="234" key="GridCell.Tab.2.center" timestamp="1603138397985">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="234" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603138397985" />
+    <state width="1877" height="234" key="GridCell.Tab.2.left" timestamp="1603138397985">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="234" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603138397985" />
+    <state width="1877" height="234" key="GridCell.Tab.2.right" timestamp="1603138397985">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="234" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603138397985" />
+    <state width="1877" height="234" key="GridCell.Tab.3.bottom" timestamp="1603138397985">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="234" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603138397985" />
+    <state width="1877" height="234" key="GridCell.Tab.3.center" timestamp="1603138397985">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="234" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603138397985" />
+    <state width="1877" height="234" key="GridCell.Tab.3.left" timestamp="1603138397985">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="234" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603138397985" />
+    <state width="1877" height="234" key="GridCell.Tab.3.right" timestamp="1603138397985">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="234" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603138397985" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1602784272175">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

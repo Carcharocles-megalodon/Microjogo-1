@@ -12,6 +12,7 @@ public class DialogueManager : MonoBehaviour
 {
     public TextMeshProUGUI nameText;
     public Button prefab;
+    public Button finalChoiceBtn;
     public TextMeshProUGUI dialogueText;
     private DialogueScriptable dialogue;
     private Choices choice;
@@ -29,6 +30,7 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(DialogueScriptable dialogue)
     {
+        FindObjectOfType<SwitchOnOff>().TurnOn();
         this.dialogue = dialogue;
         nameText.text = this.dialogue.lines[0].character.name;
         dialogueText.text = dialogue.lines[0].text;
@@ -71,11 +73,21 @@ public class DialogueManager : MonoBehaviour
     {
         for (int i = 0; i < choice.choices.Length; i++)
         {
+            if (choice.choices[i].final == true)
+            {
+                choiceButtons[i] = Instantiate(finalChoiceBtn, panel.gameObject.transform);
+                choiceButtons[i].gameObject.AddComponent<FinalBtn>();
+            }
+            else
+            {
+                choiceButtons[i] = Instantiate(prefab, panel.gameObject.transform); // cria o botão
+                choiceButtons[i].gameObject.AddComponent<ButtonScript>(); //atribui o script que atribui a função
+                choiceButtons[i].GetComponent<ButtonScript>().InformationPassing(choice,i);// passa a informaçao para a funçao poder ser atuada
+            }
             
             
-            choiceButtons[i] = Instantiate(prefab, panel.gameObject.transform); // cria o botão
-            choiceButtons[i].gameObject.AddComponent<ButtonScript>(); //atribui o script que atribui a função
-            choiceButtons[i].GetComponent<ButtonScript>().InformationPassing(choice,i);// passa a informaçao para a funçao poder ser atuada
+            
+            
             choiceButtons[i].GetComponentInChildren<TextMeshProUGUI>().text = choice.choices[i].choice; // muda o texto do botão
         }
     }
