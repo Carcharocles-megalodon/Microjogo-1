@@ -64,6 +64,7 @@
      <Compile Include="Assets\Scripts\Dialogue.cs" />
      <Compile Include="Assets\Scripts\DialogueManager.cs" />
      <Compile Include="Assets\Scripts\DialogueScriptable.cs" />
+     <Compile Include="Assets\Scripts\Epilogue.cs" />
      <Compile Include="Assets\Scripts\FinalBtn.cs" />
      <Compile Include="Assets\Scripts\NPC.cs" />
      <Compile Include="Assets\Scripts\NPCScriptable.cs" />

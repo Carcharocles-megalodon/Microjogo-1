@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd907afec35995478d06ae266fda05f, type: 3}
+  m_Name: Dialogue#5
+  m_EditorClassIdentifier: 
+  italic: 0
+  bold: 0
+  speakerLeft: {fileID: 11400000, guid: 09bfa3ec0ae90324793918e59c5f9a68, type: 2}
+  speakerRight: {fileID: 11400000, guid: 31d5a349e602b3b4c883b59bbfdff067, type: 2}
+  lines:
+  - character: {fileID: 11400000, guid: c5eb3da3f02e1a8479fee154a667fd32, type: 2}
+    text: He gave her the instructions on how to get out and there she went. Step
+      by step, she got closer and closer when suddenly...
+  - character: {fileID: 11400000, guid: 31d5a349e602b3b4c883b59bbfdff067, type: 2}
+    text: oWo what's this?
+  - character: {fileID: 11400000, guid: 31d5a349e602b3b4c883b59bbfdff067, type: 2}
+    text: A dawing and t-tasty human just *blushes* stepped on my web
+  - character: {fileID: 11400000, guid: 31d5a349e602b3b4c883b59bbfdff067, type: 2}
+    text: What does a spidew do when *boops your nose* he is annyoyed and angwy?!?1
+      He goes up the x3 waww.
+  - character: {fileID: 11400000, guid: 31d5a349e602b3b4c883b59bbfdff067, type: 2}
+    text: What awe you d-d-doing hewe, w-wittwe human?
+  - character: {fileID: 11400000, guid: 31d5a349e602b3b4c883b59bbfdff067, type: 2}
+    text: 'Do you pewhaps wish t-to die?!?! '
+  - character: {fileID: 11400000, guid: c5eb3da3f02e1a8479fee154a667fd32, type: 2}
+    text: What in Lord's Golden Heaven am I watching?
+  - character: {fileID: 11400000, guid: 09bfa3ec0ae90324793918e59c5f9a68, type: 2}
+    text: 'Hello mr.Spider, how are you? '
+  - character: {fileID: 11400000, guid: 31d5a349e602b3b4c883b59bbfdff067, type: 2}
+    text: It's Ms Spidew t-to y-you!!11
+  - character: {fileID: 11400000, guid: 31d5a349e602b3b4c883b59bbfdff067, type: 2}
+    text: Why do you cawe!?
+  choice: {fileID: 11400000, guid: 06e98b753d50b1c45ab5013a2cbc8003, type: 2}

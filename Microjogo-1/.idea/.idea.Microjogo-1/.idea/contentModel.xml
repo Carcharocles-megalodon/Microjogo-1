@@ -13,6 +13,7 @@
           <e p="Dialogue.cs" t="Include" />
           <e p="DialogueManager.cs" t="Include" />
           <e p="DialogueScriptable.cs" t="Include" />
+          <e p="Epilogue.cs" t="Include" />
           <e p="FinalBtn.cs" t="Include" />
           <e p="NPC.cs" t="Include" />
           <e p="NPCScriptable.cs" t="Include" />

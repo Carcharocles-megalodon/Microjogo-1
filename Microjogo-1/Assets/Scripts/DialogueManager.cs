@@ -54,6 +54,10 @@ public class DialogueManager : MonoBehaviour
             }
         }
         dialogueText.text = dialogue.lines[index].text;
+        /*if (dialogue.italic == true)
+        {
+            dialogueText.fontStyle == FontStyles.Italic;
+        }*/
         nameText.text = dialogue.lines[index].character.name;
         index++;
     }
@@ -61,6 +65,7 @@ public class DialogueManager : MonoBehaviour
     public void EndDialogue()
     {
         PresentChoices();
+        index = 1;
     }
 
     public void PresentChoices()
@@ -77,18 +82,23 @@ public class DialogueManager : MonoBehaviour
             {
                 choiceButtons[i] = Instantiate(finalChoiceBtn, panel.gameObject.transform);
                 choiceButtons[i].gameObject.AddComponent<FinalBtn>();
+                Epilogue.fillString(choice.choices[i].epilogue);
+                //choiceButtons[i].GetComponent<ButtonScript>().InformationPassing(choice,i,choiceButtons[i]);
             }
             else
             {
                 choiceButtons[i] = Instantiate(prefab, panel.gameObject.transform); // cria o botão
                 choiceButtons[i].gameObject.AddComponent<ButtonScript>(); //atribui o script que atribui a função
-                choiceButtons[i].GetComponent<ButtonScript>().InformationPassing(choice,i);// passa a informaçao para a funçao poder ser atuada
+                choiceButtons[i].GetComponent<ButtonScript>().InformationPassing(choice,i,choiceButtons[i]);// passa a informaçao para a funçao poder ser atuada
             }
-            
-            
-            
-            
             choiceButtons[i].GetComponentInChildren<TextMeshProUGUI>().text = choice.choices[i].choice; // muda o texto do botão
+        }
+    }
+    public void DestroyButtons()
+    {
+        for (int i = 0; i < choice.choices.Length; i++)
+        {
+            Destroy(choiceButtons[i].gameObject);
         }
     }
     

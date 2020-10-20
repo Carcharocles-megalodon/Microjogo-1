@@ -15,6 +15,8 @@ public struct Line
 [CreateAssetMenu(fileName = "New Dialogue", menuName = "Dialogue")]
 public class DialogueScriptable : ScriptableObject
 {
+    public bool italic;
+    public bool bold;
     public Character speakerLeft;
     public Character speakerRight;
     public Line[] lines;

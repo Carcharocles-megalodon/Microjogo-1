@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd907afec35995478d06ae266fda05f, type: 3}
+  m_Name: Dialogue#4
+  m_EditorClassIdentifier: 
+  italic: 0
+  bold: 0
+  speakerLeft: {fileID: 11400000, guid: 09bfa3ec0ae90324793918e59c5f9a68, type: 2}
+  speakerRight: {fileID: 11400000, guid: 3b60fac52e6f49a4797d8d409cd2e839, type: 2}
+  lines:
+  - character: {fileID: 11400000, guid: 09bfa3ec0ae90324793918e59c5f9a68, type: 2}
+    text: Sure, you gonna show my your room or something? Just so you know, I'm love
+      skeletons but I'm not really into them in... *that* way, you know?
+  - character: {fileID: 11400000, guid: 3b60fac52e6f49a4797d8d409cd2e839, type: 2}
+    text: Oh yeah, absolutely, I mean, I am married you know? I would never... uhm..
+      anyway, I'm gonna show you 'round these parts.
+  - character: {fileID: 11400000, guid: 3b60fac52e6f49a4797d8d409cd2e839, type: 2}
+    text: 'I am the Dungeon Lord, so I feel it''s my job, you know? '
+  - character: {fileID: 11400000, guid: 09bfa3ec0ae90324793918e59c5f9a68, type: 2}
+    text: 'Wait, YOU''RE the Dungeon Lord? Aren''t you supposed to be like evil,
+      and taking over the world and shit? '
+  - character: {fileID: 11400000, guid: 3b60fac52e6f49a4797d8d409cd2e839, type: 2}
+    text: I mean, yeah, but it's just too much work you know? I'd rather not do that.
+  - character: {fileID: 11400000, guid: 09bfa3ec0ae90324793918e59c5f9a68, type: 2}
+    text: No, no, yeah I totally understand. My mom wanted me to be a doctor you
+      know? I understand what that's like.
+  - character: {fileID: 11400000, guid: 3b60fac52e6f49a4797d8d409cd2e839, type: 2}
+    text: 'Yeah, people put these expectations on you and, like, you only live once,
+      you know? I know I''m immortal and stuff, but, like, that''s just not my cup
+      of tea. '
+  - character: {fileID: 11400000, guid: 09bfa3ec0ae90324793918e59c5f9a68, type: 2}
+    text: 'Totally understand. Just let me live my life the way I want to. I wasn''t
+      born to do someone''s bidding you know? '
+  - character: {fileID: 11400000, guid: 3b60fac52e6f49a4797d8d409cd2e839, type: 2}
+    text: 'Exactly. They want the world to "be brought to chaos or whatever", why
+      don''t they do it? I just wanna chill. '
+  - character: {fileID: 11400000, guid: c5eb3da3f02e1a8479fee154a667fd32, type: 2}
+    text: Silence ensued. But not an awkward silence. A confortable one. They got
+      to know one another a little better
+  - character: {fileID: 11400000, guid: 09bfa3ec0ae90324793918e59c5f9a68, type: 2}
+    text: 'Are we there yet? '
+  - character: {fileID: 11400000, guid: 3b60fac52e6f49a4797d8d409cd2e839, type: 2}
+    text: 'Just about. I managed to scrounge this from an adventurer a couple weeks
+      past and couldn''t make it work. '
+  - character: {fileID: 11400000, guid: 09bfa3ec0ae90324793918e59c5f9a68, type: 2}
+    text: 'Oh yeah it''s some speakers. You can solve this pretty easily. Just need
+      a screwdriver, you got any round these parts? '
+  - character: {fileID: 11400000, guid: 3b60fac52e6f49a4797d8d409cd2e839, type: 2}
+    text: No, but I can do this.
+  - character: {fileID: 11400000, guid: c5eb3da3f02e1a8479fee154a667fd32, type: 2}
+    text: With that, his fingerbones transformed to become a screwdriver.
+  - character: {fileID: 11400000, guid: 09bfa3ec0ae90324793918e59c5f9a68, type: 2}
+    text: 'Wow, magic fingers. Very nice.
+
+      Also convenient. '
+  - character: {fileID: 11400000, guid: 09bfa3ec0ae90324793918e59c5f9a68, type: 2}
+    text: 'Well, you just connect this wire, *mumbles in engineer* and there we go,
+      it should be working. '
+  - character: {fileID: 11400000, guid: c5eb3da3f02e1a8479fee154a667fd32, type: 2}
+    text: While both me and Matthew are surprised she's so tech savvy, she connects
+      her phone to it and starts playing music.
+  - character: {fileID: 11400000, guid: 3b60fac52e6f49a4797d8d409cd2e839, type: 2}
+    text: 'What is this? '
+  - character: {fileID: 11400000, guid: 09bfa3ec0ae90324793918e59c5f9a68, type: 2}
+    text: 'What do you mean, what is this? This is music. '
+  - character: {fileID: 11400000, guid: 09bfa3ec0ae90324793918e59c5f9a68, type: 2}
+    text: 'What do you mean, what is this? This is music. '
+  - character: {fileID: 11400000, guid: 3b60fac52e6f49a4797d8d409cd2e839, type: 2}
+    text: '*facepalms* I know it''s music, I''m asking what the song and/or band
+      is.'
+  - character: {fileID: 11400000, guid: 09bfa3ec0ae90324793918e59c5f9a68, type: 2}
+    text: This is, uh, Pink Floyd, ever heard it?
+  - character: {fileID: 11400000, guid: 3b60fac52e6f49a4797d8d409cd2e839, type: 2}
+    text: 'No, can''t say I have. I like it. Very much.  '
+  - character: {fileID: 11400000, guid: 09bfa3ec0ae90324793918e59c5f9a68, type: 2}
+    text: 'Say, have you tried weed? '
+  choice: {fileID: 11400000, guid: cbc89715411eb4b4dba38d486fd66761, type: 2}

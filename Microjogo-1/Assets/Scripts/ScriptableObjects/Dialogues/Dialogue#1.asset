@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd907afec35995478d06ae266fda05f, type: 3}
   m_Name: Dialogue#1
   m_EditorClassIdentifier: 
+  italic: 0
+  bold: 0
   speakerLeft: {fileID: 11400000, guid: 09bfa3ec0ae90324793918e59c5f9a68, type: 2}
   speakerRight: {fileID: 11400000, guid: c5eb3da3f02e1a8479fee154a667fd32, type: 2}
   lines:
@@ -34,5 +36,5 @@ MonoBehaviour:
 
 '
   - character: {fileID: 11400000, guid: c5eb3da3f02e1a8479fee154a667fd32, type: 2}
-    text: She got lost. What'll happen now...
+    text: She spots a dungeon nearby...
   choice: {fileID: 11400000, guid: d741c3812a4762640a280964bc10b6e9, type: 2}

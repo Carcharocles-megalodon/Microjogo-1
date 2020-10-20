@@ -14,13 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   question: What'll she do?
   choices:
-  - choice: Head down into the caves
+  - choice: They always told her that when lost in a forest the safest thing to do
+      is to go into a cave.
     backgroundImage: {fileID: 21300000, guid: 9d5c854af19d0f3448d7fad908489054, type: 3}
     npc: {fileID: 11400000, guid: f66ab66aafe62dd449f2a4d5c33af4db, type: 2}
     final: 0
     epilogue: 
-  - choice: End game
+  - choice: 'Find your way back home. '
     backgroundImage: {fileID: 21300000, guid: 860b347fbba98ba488b4667cd6d28e3e, type: 3}
     npc: {fileID: 11400000, guid: f66ab66aafe62dd449f2a4d5c33af4db, type: 2}
     final: 1
-    epilogue: You have reached the end surprisingly, aren't you amazing?
+    epilogue: "You pick up your phone, check your GPS and within 25 min you're already
+      well on your way home. \nCongratulations! \nYou had the common sense to not
+      go into a dungeon when you are already lost in a forest eh? Good job."

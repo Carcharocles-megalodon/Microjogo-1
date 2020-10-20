@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94cbba8ad272442408cafcd2d1da5927, type: 3}
+  m_Name: Choice#4
+  m_EditorClassIdentifier: 
+  question: Epilogue
+  choices:
+  - choice: Chill with Matthew
+    backgroundImage: {fileID: 0}
+    npc: {fileID: 0}
+    final: 1
+    epilogue: And so you sat with Matthew, just chilling, smoking some weed, listenin'
+      and reminiscin' bout the good old days. Nice one.

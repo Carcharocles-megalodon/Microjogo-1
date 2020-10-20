@@ -12,13 +12,49 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd907afec35995478d06ae266fda05f, type: 3}
   m_Name: Dialogue#2
   m_EditorClassIdentifier: 
+  italic: 0
+  bold: 0
   speakerLeft: {fileID: 11400000, guid: 09bfa3ec0ae90324793918e59c5f9a68, type: 2}
   speakerRight: {fileID: 11400000, guid: c5eb3da3f02e1a8479fee154a667fd32, type: 2}
   lines:
+  - character: {fileID: 11400000, guid: c5eb3da3f02e1a8479fee154a667fd32, type: 2}
+    text: 'She decided to venture into the dungeon. A *fantastic* idea, mind you.
+      What now? '
   - character: {fileID: 11400000, guid: 09bfa3ec0ae90324793918e59c5f9a68, type: 2}
-    text: eiwhjfpowerew
+    text: 'Hello?! Is anyone there?! '
+  - character: {fileID: 11400000, guid: c5eb3da3f02e1a8479fee154a667fd32, type: 2}
+    text: '*facepalms* I can''t believe someone can be this idiotic.'
   - character: {fileID: 11400000, guid: 09bfa3ec0ae90324793918e59c5f9a68, type: 2}
-    text: werwerwer
+    text: 'Can anyone hear me? I''m lost! '
+  - character: {fileID: 11400000, guid: c5eb3da3f02e1a8479fee154a667fd32, type: 2}
+    text: 'The air shifts and thrums. Someone... or something, is watching. Question
+      is, does she realize? '
   - character: {fileID: 11400000, guid: 09bfa3ec0ae90324793918e59c5f9a68, type: 2}
-    text: ewr
-  choice: {fileID: 11400000, guid: d741c3812a4762640a280964bc10b6e9, type: 2}
+    text: What should I do? Seems like nobody's gonna rescue me.
+  - character: {fileID: 11400000, guid: 09bfa3ec0ae90324793918e59c5f9a68, type: 2}
+    text: 'Guess I''ll have to j- OwO, what''s this? '
+  - character: {fileID: 11400000, guid: c5eb3da3f02e1a8479fee154a667fd32, type: 2}
+    text: She finds a corpse. Just it's bones, really. Probably dead a long time.
+      Or maybe someone stripped it of its flesh...
+  - character: {fileID: 11400000, guid: 09bfa3ec0ae90324793918e59c5f9a68, type: 2}
+    text: Wow is that a skull? OMG, I've always wanted to take a selfie with a skull!
+  - character: {fileID: 11400000, guid: c5eb3da3f02e1a8479fee154a667fd32, type: 2}
+    text: She pulls out her pho... wait, if she had a phone, why didn't she call
+      someone to rescue her? -_-
+  - character: {fileID: 11400000, guid: c5eb3da3f02e1a8479fee154a667fd32, type: 2}
+    text: Anyway, she pulls out her phone and starts... taking a selfie?! *rips out
+      hair*
+  - character: {fileID: 11400000, guid: 09bfa3ec0ae90324793918e59c5f9a68, type: 2}
+    text: 'This''ll totally get me a ton of likes and followers on Instagram!
+
+      Let
+      me get some different poses.'
+  - character: {fileID: 11400000, guid: c5eb3da3f02e1a8479fee154a667fd32, type: 2}
+    text: 'And as she is focused upon taking pictures with the skull, the grim creature
+      keeps its eye trained on her. '
+  - character: {fileID: 11400000, guid: c5eb3da3f02e1a8479fee154a667fd32, type: 2}
+    text: 'It suddenly starts approaching. Slowly, gently, it makes it''s way, unseen,
+      towards Jessica''s back. '
+  - character: {fileID: 11400000, guid: 12666885547a07a4da1af7de6db34950, type: 2}
+    text: Hello there.
+  choice: {fileID: 11400000, guid: 1989d6318d609814f9fbf921bd1ae199, type: 2}

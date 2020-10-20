@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94cbba8ad272442408cafcd2d1da5927, type: 3}
+  m_Name: Choice#2
+  m_EditorClassIdentifier: 
+  question: How does she react?
+  choices:
+  - choice: Scream as loud as you can, maybe that'll work?
+    backgroundImage: {fileID: 21300000, guid: 9a5c436306822ee428e46c6b753e715e, type: 3}
+    npc: {fileID: 11400000, guid: d365e830d311859499d4c0b950cbe7b1, type: 2}
+    final: 1
+    epilogue: "He panicked, and hit you with a red beam of light. Did you die? Are
+      you dead? Probably. \nDon't worry about it. It happens to everyone. Probably."
+  - choice: Talk to the mysterious shadow. Amicably, I mean.
+    backgroundImage: {fileID: 21300000, guid: 9a5c436306822ee428e46c6b753e715e, type: 3}
+    npc: {fileID: 11400000, guid: d365e830d311859499d4c0b950cbe7b1, type: 2}
+    final: 0
+    epilogue: 
